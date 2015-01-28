@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{7187ABEC-F6E0-4CF4-8E8C-481DBE6DA18B}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>GoneBananasShared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameStartLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GameOverLayer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GoneBananasApplicationDelegate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CCPhysicsSprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\LHScene.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Utilities\LHDevice.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Protocols\LHNodeProtocol.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Nodes\LHGameWorldNode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Nodes\LHUINode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Nodes\LHBackUINode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Nodes\LHSprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Utilities\LHUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)LevelHelper2-API\" />
+    <Folder Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Utilities\" />
+    <Folder Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Protocols\" />
+    <Folder Include="$(MSBuildThisFileDirectory)LevelHelper2-API\Nodes\" />
+  </ItemGroup>
+</Project>
