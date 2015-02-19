@@ -3,3 +3,13 @@ GoneBananasAndroid/obj
 GoneBananasiOS/bin
 GoneBananasiOS/obj
 win32/obj
+LevelHelper2CocoSharp/.DS_Store
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.iOS/bin/iPhone
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.iOS/bin/iPhoneSimulator
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.iOS/obj/iPhone
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.iOS/obj/iPhoneSimulator
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.iOS/obj/.DS_Store
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.Android/bin/Release
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.Android/bin/Debug
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.Android/obj/Debug
+LevelHelper2CocoSharp/LevelHelper2CocoSharp.Android/obj/Release

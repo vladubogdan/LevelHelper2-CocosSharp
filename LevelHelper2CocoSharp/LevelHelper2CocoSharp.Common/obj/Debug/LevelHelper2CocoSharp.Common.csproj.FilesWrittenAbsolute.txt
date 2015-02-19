@@ -1,0 +1,8 @@
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/obj/Debug/.NETPortable,Version=v4.0,Profile=Profile136.AssemblyAttribute.cs
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/bin/Debug/LevelHelper2CocoSharp.Common.dll.mdb
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/bin/Debug/LevelHelper2CocoSharp.Common.dll
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/obj/Debug/LevelHelper2CocoSharp.Common.dll
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/obj/Debug/LevelHelper2CocoSharp.Common.dll.mdb
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/bin/Debug/CocosSharp.dll
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/bin/Debug/MonoGame.Framework.dll
+/Volumes/PersonalFiles/ActiveProjects/LevelHelper2-API-GITHUB/LevelHelper2CocoSharp/LevelHelper2CocoSharp/LevelHelper2CocoSharp.Common/bin/Debug/box2d.dll

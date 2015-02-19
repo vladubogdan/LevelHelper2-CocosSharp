@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{5AC8C8A9-CBBC-4FB5-8323-BE841CD5F605}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>LevelHelper2CocoSharp.Common</RootNamespace>
+    <AssemblyName>LevelHelper2CocoSharp.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="GameAppDelegate.cs" />
+    <Compile Include="GameLayer.cs" />
+    <Compile Include="LevelHelper2-API\LHScene.cs" />
+    <Compile Include="LevelHelper2-API\Nodes\LHBackUINode.cs" />
+    <Compile Include="LevelHelper2-API\Nodes\LHGameWorldNode.cs" />
+    <Compile Include="LevelHelper2-API\Nodes\LHSprite.cs" />
+    <Compile Include="LevelHelper2-API\Nodes\LHUINode.cs" />
+    <Compile Include="LevelHelper2-API\Protocols\LHBodyShape.cs" />
+    <Compile Include="LevelHelper2-API\Protocols\LHNodeProtocol.cs" />
+    <Compile Include="LevelHelper2-API\Protocols\LHPhysicsProtocol.cs" />
+    <Compile Include="LevelHelper2-API\Utilities\CCNodeTransforms.cs" />
+    <Compile Include="LevelHelper2-API\Utilities\LHDevice.cs" />
+    <Compile Include="LevelHelper2-API\Utilities\LHUtils.cs" />
+    <Compile Include="LevelHelper2-API\Utilities\LHDebugDraw.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="CocosSharp">
+      <HintPath>..\..\packages\CocosSharp.PCL.Shared.1.3.1.0\lib\portable-net40+sl50+wp8+win8+MonoAndroid10+MonoTouch10+MonoMac10\CocosSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>..\..\packages\CocosSharp.PCL.Shared.1.3.1.0\lib\portable-net40+sl50+wp8+win8+MonoAndroid10+MonoTouch10+MonoMac10\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="box2d">
+      <HintPath>..\..\packages\CocosSharp.PCL.Shared.1.3.1.0\lib\Xamarin.iOS10\box2d.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="LevelHelper2-API\" />
+  </ItemGroup>
+</Project>
